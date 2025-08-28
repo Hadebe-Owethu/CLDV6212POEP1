@@ -1,0 +1,34 @@
+﻿@model ABCRetailer.Models.FileUploadModel
+@{
+    ViewData["Title"] = "Upload Proof";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Upload Payment Proof</h2>
+
+<form method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        <label>Proof of Payment</label>
+        <input class="form-control" type="file" asp-for="ProofOfPayment" />
+        <span asp-validation-for="ProofOfPayment" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label>Order ID (optional)</label>
+        <input class="form-control" asp-for="OrderId" />
+    </div>
+
+    <div class="mb-3">
+        <label>Customer Name (optional)</label>
+        <input class="form-control" asp-for="CustomerName" />
+    </div>
+
+    <button class="btn btn-success">Upload</button>
+</form>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success mt-3">@TempData["SuccessMessage"]</div>
+}

@@ -1,0 +1,13 @@
+﻿@model ABCRetailer.Models.ViewModels.OrderCreateViewModel
+@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Create Order</h2>
+<form method="post">
+	<div class="mb-2"><label>Customer</label><select class="form-select" asp-for="CustomerId" asp-items="Model.Customers"></select></div>
+	<div class="mb-2"><label>Product</label><select class="form-select" asp-for="ProductId" asp-items="Model.Products"></select></div>
+	<div class="mb-2"><label>Quantity</label><input class="form-control" asp-for="Quantity" type="number" min="1" /></div>
+	<div class="mb-2"><label>Status</label><input class="form-control" asp-for="Status" /></div>
+	<button class="btn btn-success">Create</button>
+	<a href="/Order" class="btn btn-secondary">Cancel</a>
+</form>
