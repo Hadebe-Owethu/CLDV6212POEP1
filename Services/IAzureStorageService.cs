@@ -33,13 +33,13 @@ namespace ABCRetailer.Services
         // Table CRUD
         Task AddAsync<T>(T entity) where T : class, ITableEntity, new();
         Task<T?> GetByIdAsync<T>(string partitionKey, string rowKey) where T : class, ITableEntity, new();
-
         Task<List<T>> GetAllAsync<T>() where T : class, ITableEntity, new();
         Task UpsertAsync<T>(T entity) where T : class, ITableEntity, new();
         Task DeleteAsync<T>(string partitionKey, string rowKey) where T : class, ITableEntity, new();
 
         // Blob
         Task<string?> UploadImageAsync(IFormFile file, string? fileNameHint = null);
+        Task DeleteImageAsync(string blobName); // ADD THIS METHOD
 
         // Queue
         Task EnqueueMessageAsync(string messageText);

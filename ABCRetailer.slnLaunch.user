@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ABCRetailer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\ABCRetailer.Function\\ABCRetailer.Function.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,10 +1,91 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Documents\\Classword Cloud\\ABCRetailer\\",
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|c:\\users\\lab_services_student\\documents\\classword cloud\\abcretailer\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|solutionrelative:views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}|..\\ABCRetailer.Function\\ABCRetailer.Function.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\abcretailer.function\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\cldv6212poep1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\cldv6212poep1\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|solutionrelative:controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}|..\\ABCRetailer.Function\\ABCRetailer.Function.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\abcretailer.function\\functions\\blobfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}|..\\ABCRetailer.Function\\ABCRetailer.Function.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\abcretailer.function\\functions\\uploadsfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}|..\\ABCRetailer.Function\\ABCRetailer.Function.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\abcretailer.function\\functions\\queueprocessorfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}|..\\ABCRetailer.Function\\ABCRetailer.Function.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\abcretailer.function\\functions\\ordersfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}|..\\ABCRetailer.Function\\ABCRetailer.Function.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\abcretailer.function\\functions\\productsfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}|..\\ABCRetailer.Function\\ABCRetailer.Function.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\abcretailer.function\\functions\\customersfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}|..\\ABCRetailer.Function\\ABCRetailer.Function.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\abcretailer.function\\helpers\\tableutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}|..\\ABCRetailer.Function\\ABCRetailer.Function.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\abcretailer.function\\helpers\\multiparthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}|..\\ABCRetailer.Function\\ABCRetailer.Function.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\abcretailer.function\\helpers\\httputils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}|..\\ABCRetailer.Function\\ABCRetailer.Function.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\abcretailer.function\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}|..\\ABCRetailer.Function\\ABCRetailer.Function.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\abcretailer.function\\models\\apimodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\cldv6212poep1\\models\\fileuploadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|solutionrelative:models\\fileuploadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\cldv6212poep1\\services\\azurestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|solutionrelative:services\\azurestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\cldv6212poep1\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\cldv6212poep1\\models\\viewmodels\\fileuploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|solutionrelative:models\\viewmodels\\fileuploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\cldv6212poep1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\cldv6212poep1\\services\\iazurestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|solutionrelative:services\\iazurestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}|..\\ABCRetailer.Function\\ABCRetailer.Function.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\abcretailer.function\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\cldv6212poep1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}|..\\ABCRetailer.Function\\ABCRetailer.Function.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\abcretailer.function\\entities\\tableentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\cldv6212poep1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}|ABCRetailer.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}|..\\ABCRetailer.Function\\ABCRetailer.Function.csproj|c:\\users\\lab_services_student\\documents\\classwork cloud\\classwork cloud\\abcretailer.function\\abcretailer.function.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +95,322 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classword Cloud\\ABCRetailer\\Views\\Customer\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customer\\Create.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classword Cloud\\ABCRetailer\\Views\\Customer\\Create.cshtml",
-              "RelativeToolTip": "Views\\Customer\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T19:07:45.078Z",
+              "DocumentIndex": 5,
+              "Title": "QueueProcessorFunction.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Functions\\QueueProcessorFunction.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailer.Function\\Functions\\QueueProcessorFunction.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Functions\\QueueProcessorFunction.cs",
+              "RelativeToolTip": "..\\ABCRetailer.Function\\Functions\\QueueProcessorFunction.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:53:02.183Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlobFunction.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Functions\\BlobFunction.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailer.Function\\Functions\\BlobFunction.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Functions\\BlobFunction.cs",
+              "RelativeToolTip": "..\\ABCRetailer.Function\\Functions\\BlobFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T11:07:26.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UploadController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "Controllers\\UploadController.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAuwGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T20:48:12.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\local.settings.json",
+              "RelativeDocumentMoniker": "..\\ABCRetailer.Function\\local.settings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\local.settings.json",
+              "RelativeToolTip": "..\\ABCRetailer.Function\\local.settings.json",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-06T17:58:10.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-06T20:17:21.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UploadsFunction.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Functions\\UploadsFunction.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailer.Function\\Functions\\UploadsFunction.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Functions\\UploadsFunction.cs",
+              "RelativeToolTip": "..\\ABCRetailer.Function\\Functions\\UploadsFunction.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwJIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:52:28.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrdersFunction.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Functions\\OrdersFunction.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailer.Function\\Functions\\OrdersFunction.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Functions\\OrdersFunction.cs",
+              "RelativeToolTip": "..\\ABCRetailer.Function\\Functions\\OrdersFunction.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAiwNEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:51:07.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductsFunction.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Functions\\ProductsFunction.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailer.Function\\Functions\\ProductsFunction.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Functions\\ProductsFunction.cs",
+              "RelativeToolTip": "..\\ABCRetailer.Function\\Functions\\ProductsFunction.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAiwKQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:46:53.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomersFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Functions\\CustomersFunctions.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailer.Function\\Functions\\CustomersFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Functions\\CustomersFunctions.cs",
+              "RelativeToolTip": "..\\ABCRetailer.Function\\Functions\\CustomersFunctions.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAiwKYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T11:07:28.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TableUtils.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Helpers\\TableUtils.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailer.Function\\Helpers\\TableUtils.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Helpers\\TableUtils.cs",
+              "RelativeToolTip": "..\\ABCRetailer.Function\\Helpers\\TableUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:45:15.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MultipartHelper.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Helpers\\MultipartHelper.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailer.Function\\Helpers\\MultipartHelper.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Helpers\\MultipartHelper.cs",
+              "RelativeToolTip": "..\\ABCRetailer.Function\\Helpers\\MultipartHelper.cs",
+              "ViewState": "AgIAADEAAAAA2MzMzMz6vwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T18:12:10.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HttpUtils.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Helpers\\HttpUtils.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailer.Function\\Helpers\\HttpUtils.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Helpers\\HttpUtils.cs",
+              "RelativeToolTip": "..\\ABCRetailer.Function\\Helpers\\HttpUtils.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAACwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:44:19.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Program.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailer.Function\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Program.cs",
+              "RelativeToolTip": "..\\ABCRetailer.Function\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T11:06:55.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApiModels.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Models\\ApiModels.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailer.Function\\Models\\ApiModels.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Models\\ApiModels.cs",
+              "RelativeToolTip": "..\\ABCRetailer.Function\\Models\\ApiModels.cs",
+              "ViewState": "AgIAABwAAAAwZmZmZmY+wDQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T18:01:10.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AzureStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Services\\AzureStorageService.cs",
+              "RelativeDocumentMoniker": "Services\\AzureStorageService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Services\\AzureStorageService.cs",
+              "RelativeToolTip": "Services\\AzureStorageService.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAwJwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T18:04:20.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T11:08:04.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FileUploadModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Models\\FileUploadModel.cs",
+              "RelativeDocumentMoniker": "Models\\FileUploadModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Models\\FileUploadModel.cs",
+              "RelativeToolTip": "Models\\FileUploadModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T21:11:58.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FileUploadViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Models\\ViewModels\\FileUploadViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\FileUploadViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Models\\ViewModels\\FileUploadViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\FileUploadViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T21:01:46.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T20:43:26.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IAzureStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Services\\IAzureStorageService.cs",
+              "RelativeDocumentMoniker": "Services\\IAzureStorageService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Services\\IAzureStorageService.cs",
+              "RelativeToolTip": "Services\\IAzureStorageService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA1wDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T19:44:15.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "host.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\host.json",
+              "RelativeDocumentMoniker": "..\\ABCRetailer.Function\\host.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\host.json",
+              "RelativeToolTip": "..\\ABCRetailer.Function\\host.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-06T20:20:02.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T20:17:15.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\CLDV6212POEP1\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T18:05:25.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TableEntities.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Entities\\TableEntities.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailer.Function\\Entities\\TableEntities.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\Entities\\TableEntities.cs",
+              "RelativeToolTip": "..\\ABCRetailer.Function\\Entities\\TableEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:45:47.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ABCRetailer.Function.csproj",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\ABCRetailer.Function.csproj",
+              "RelativeDocumentMoniker": "..\\ABCRetailer.Function\\ABCRetailer.Function.csproj",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\Classwork Cloud\\Classwork Cloud\\ABCRetailer.Function\\ABCRetailer.Function.csproj",
+              "RelativeToolTip": "..\\ABCRetailer.Function\\ABCRetailer.Function.csproj",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwCIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-06T11:06:20.436Z"
             }
           ]
         }

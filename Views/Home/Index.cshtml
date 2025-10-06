@@ -1,63 +1,331 @@
-﻿@{
-    ViewData["Title"] = "Home";
-}
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Retailers - Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e67e22;
+            --light-bg: #f8f9fa;
+            --dark-text: #2c3e50;
+        }
 
-<h2>Welcome to ABCRetailer</h2>
+        body {
+            background-color: var(--light-bg);
+            color: var(--dark-text);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
 
-<div class="mb-4">
-    <a asp-controller="Product" asp-action="Index" class="btn btn-outline-primary me-2">
-        <i class="fa-solid fa-box"></i> View Products
-    </a>
-    <a asp-controller="Customer" asp-action="Index" class="btn btn-outline-secondary me-2">
-        <i class="fa-solid fa-user"></i> View Customers
-    </a>
-    <a asp-controller="Order" asp-action="Index" class="btn btn-outline-success">
-        <i class="fa-solid fa-receipt"></i> View Orders
-    </a>
-</div>
+        .navbar {
+            background: linear-gradient(135deg, var(--primary-color), #1a2530);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
 
-<h4>Featured Products</h4>
-<div class="row">
-    @* Example loop for 5 products *@
-    @for (int i = 0; i < 5; i++)
-    {
-        <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Product Image" />
-                <div class="card-body">
-                    <h5 class="card-title">Product @i</h5>
-                    <p class="card-text">Description for product @i.</p>
-                    <a href="#" class="btn btn-sm btn-primary">View</a>
+        .hero-section {
+            background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('https://images.unsplash.com/photo-1511185307590-3c29c6fea8b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .contact-card {
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+            border: none;
+            margin-bottom: 25px;
+        }
+
+            .contact-card:hover {
+                transform: translateY(-5px);
+            }
+
+        .contact-icon {
+            font-size: 24px;
+            color: var(--accent-color);
+            margin-right: 15px;
+        }
+
+        .map-container {
+            border-radius: 10px;
+            overflow: hidden;
+            height: 300px;
+        }
+
+        .operational-hours {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+            .operational-hours table {
+                width: 100%;
+            }
+
+            .operational-hours th {
+                background-color: var(--primary-color);
+                color: white;
+            }
+
+        .btn-primary {
+            background-color: var(--secondary-color);
+            border: none;
+            padding: 10px 20px;
+        }
+
+            .btn-primary:hover {
+                background-color: var(--primary-color);
+            }
+
+        .contact-form {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        footer {
+            background: var(--primary-color);
+            color: white;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
+
+        .social-icon {
+            color: white;
+            font-size: 24px;
+            margin-right: 15px;
+            transition: color 0.3s ease;
+        }
+
+            .social-icon:hover {
+                color: var(--accent-color);
+            }
+
+        .section-title {
+            position: relative;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+
+            .section-title:after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 60px;
+                height: 4px;
+                background-color: var(--accent-color);
+                border-radius: 2px;
+            }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-store me-2"></i>ABC Retailers
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Contact ABC Retailers</h1>
+            <p class="lead">We're here to help with all your retail needs across South Africa</p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container">
+        <div class="row">
+            <!-- Contact Information -->
+            <div class="col-lg-6">
+                <h2 class="section-title">Get in Touch</h2>
+
+                <div class="contact-card card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="contact-icon fas fa-map-marker-alt"></i>
+                            <h5 class="card-title mb-0">Address</h5>
+                        </div>
+                        <p class="card-text">
+                            123 Main Street, Sandton<br>
+                            Johannesburg, 2196<br>
+                            South Africa
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contact-card card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="contact-icon fas fa-envelope"></i>
+                            <h5 class="card-title mb-0">Contact Email</h5>
+                        </div>
+                        <p class="card-text">info@abcretailers.co.za<br>support@abcretailers.co.za</p>
+                    </div>
+                </div>
+
+                <div class="contact-card card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="contact-icon fas fa-phone"></i>
+                            <h5 class="card-title mb-0">Contact Number</h5>
+                        </div>
+                        <p class="card-text">+27 (011) 123-4567<br>+27 (080) 123-ABCD</p>
+                    </div>
+                </div>
+
+                <div class="contact-card card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="contact-icon fas fa-clock"></i>
+                            <h5 class="card-title mb-0">Operational Hours</h5>
+                        </div>
+                        <div class="operational-hours">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Day</th>
+                                        <th>Hours</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Monday - Friday</td>
+                                        <td>8:00 AM - 6:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Saturday</td>
+                                        <td>9:00 AM - 5:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sunday</td>
+                                        <td>9:00 AM - 1:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Public Holidays</td>
+                                        <td>9:00 AM - 1:00 PM</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map and Contact Form -->
+            <div class="col-lg-6">
+                <div class="mb-5">
+                    <h2 class="section-title">Our Location</h2>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.207331366319!2d28.05501501502805!3d-26.193869983444287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950ed81fb8fb0d%3A0x6a56f3859479efd8!2sSandton%20City!5e0!3m2!1sen!2sza!4v1661857788015!5m2!1sen!2sza"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h2 class="section-title">Send Us an Enquiry</h2>
+                    <form id="enquiryForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <select class="form-select" id="subject" required>
+                                <option value="" selected disabled>Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="product">Product Information</option>
+                                <option value="order">Order Status</option>
+                                <option value="return">Returns & Refunds</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Submit Enquiry</button>
+                    </form>
                 </div>
             </div>
         </div>
-    }
-</div>
+    </div>
 
-<h4 class="mt-5">Dashboard Stats</h4>
-<div class="row">
-    <div class="col-md-3">
-        <div class="card text-white bg-primary mb-3">
-            <div class="card-body">
-                <h5 class="card-title">Total Products</h5>
-                <p class="card-text">120</p>
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <div class="mb-4">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
             </div>
+            <p>123 Main Street, Sandton, Johannesburg, 2196, South Africa</p>
+            <p>Email: info@abcretailers.co.za | Phone: +27 (011) 123-4567</p>
+            <p>&copy; 2023 ABC Retailers. All rights reserved.</p>
         </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card text-white bg-success mb-3">
-            <div class="card-body">
-                <h5 class="card-title">Total Orders</h5>
-                <p class="card-text">85</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card text-white bg-warning mb-3">
-            <div class="card-body">
-                <h5 class="card-title">Pending Orders</h5>
-                <p class="card-text">12</p>
-            </div>
-        </div>
-    </div>
-</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Form submission handling
+        document.getElementById('enquiryForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // Simple form validation
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            if (name && email && message) {
+                // Show success message (in a real application, you would send data to a server)
+                alert('Thank you for your enquiry! We will get back to you soon.');
+                document.getElementById('enquiryForm').reset();
+            } else {
+                alert('Please fill in all required fields.');
+            }
+        });
+    </script>
+</body>
+</html>

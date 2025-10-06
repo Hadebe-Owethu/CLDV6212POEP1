@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCRetailer", "ABCRetailer.csproj", "{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCRetailer.Function", "..\ABCRetailer.Function\ABCRetailer.Function.csproj", "{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E9AFE01-BFBB-441E-BC4E-23F030E97B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBFAEBD-0E2A-43D8-A8BB-3178CEE1460F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

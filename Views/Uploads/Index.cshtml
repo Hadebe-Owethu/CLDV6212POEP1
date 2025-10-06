@@ -1,34 +1,35 @@
-﻿@model ABCRetailer.Models.FileUploadModel
-@{
-    ViewData["Title"] = "Upload Proof";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+﻿@model ABCRetailer.Models.FileUploadViewModel
+
+<h2>Upload Proof of Payment</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
 }
 
-<h2>Upload Payment Proof</h2>
-
-<form method="post" enctype="multipart/form-data">
+<form asp-action="Index" method="post" enctype="multipart/form-data">
     @Html.AntiForgeryToken()
 
-    <div class="mb-3">
-        <label>Proof of Payment</label>
-        <input class="form-control" type="file" asp-for="ProofOfPayment" />
+    <div class="form-group">
+        <label asp-for="CustomerName" class="control-label"></label>
+        <input asp-for="CustomerName" class="form-control" />
+        <span asp-validation-for="CustomerName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="OrderId" class="control-label"></label>
+        <input asp-for="OrderId" class="form-control" />
+        <span asp-validation-for="OrderId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ProofOfPayment" class="control-label"></label>
+        <input asp-for="ProofOfPayment" type="file" class="form-control" />
         <span asp-validation-for="ProofOfPayment" class="text-danger"></span>
     </div>
 
-    <div class="mb-3">
-        <label>Order ID (optional)</label>
-        <input class="form-control" asp-for="OrderId" />
+    <div class="form-group">
+        <input type="submit" value="Upload" class="btn btn-primary" />
+        <a asp-action="List" class="btn btn-secondary">View Uploads</a>
     </div>
-
-    <div class="mb-3">
-        <label>Customer Name (optional)</label>
-        <input class="form-control" asp-for="CustomerName" />
-    </div>
-
-    <button class="btn btn-success">Upload</button>
 </form>
-
-@if (TempData["SuccessMessage"] != null)
-{
-    <div class="alert alert-success mt-3">@TempData["SuccessMessage"]</div>
-}

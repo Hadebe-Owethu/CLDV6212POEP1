@@ -39,6 +39,9 @@ namespace ABCRetailer.Services
             _productTable = _tableServiceClient.GetTableClient(_options.TableNames.Products);
             _orderTable = _tableServiceClient.GetTableClient(_options.TableNames.Orders);
             _blobContainer = _blobServiceClient.GetBlobContainerClient(_options.Blob.ContainerName);
+
+            // Auto-initialize (for development)
+            InitializeAsync().GetAwaiter().GetResult();
         }
 
         public async Task InitializeAsync()
@@ -144,8 +147,11 @@ namespace ABCRetailer.Services
                 var t when t == typeof(Customer) => _customerTable,
                 var t when t == typeof(Product) => _productTable,
                 var t when t == typeof(Order) => _orderTable,
+                var t when t == typeof(ABCRetailer.Models.FileUploadModel) => _customerTable, // Use customers table or create separate
                 _ => throw new InvalidOperationException($"No table mapping defined for type {typeof(T).Name}")
             };
         }
+
+
     }
 }
